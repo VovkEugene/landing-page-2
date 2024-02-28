@@ -7,9 +7,7 @@ const Testimonials = () => (
     id="clients"
     className={`relative ${styles.paddingY} ${styles.flexCenter} flex-col`}
   >
-    {/* TODO */}
-    <div />
-
+    <div className="absolute w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient z-[0]" />
     <div className="relative w-full sm:mb-16 mb-6 flex md:flex-row flex-col justify-between items-center z-[1]">
       <h1 className={styles.heading2}>
         What People are <br className="sm:block hidden" /> saying about us.
